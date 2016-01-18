@@ -6,7 +6,7 @@ module Spree
     layout :determine_layout
 
     def show
-      @page = Spree::Page.by_store(current_store).visible.friendly.find_by_slug!(params[:id])
+      @page = Spree::Page.visible.friendly.find_by_slug!(params[:id])
     end
 
     private
