@@ -1,6 +1,6 @@
-require 'spree_core'
-require 'spree_static_content/engine'
-require 'spree_static_content/version'
+require 'solidus_core'
+require 'solidus_static_content/engine'
+require 'solidus_static_content/version'
 require 'coffee_script'
 require 'sass/rails'
 

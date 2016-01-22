@@ -1,4 +1,4 @@
-module SpreeStaticContent
+module SolidusStaticContent
   module_function
 
   # Returns the version of the currently loaded SpreeStaticContent as a
