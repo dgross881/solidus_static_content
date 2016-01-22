@@ -2,7 +2,7 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_static_content/version'
+require 'solidus_static_content/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
